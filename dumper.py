@@ -6,7 +6,7 @@ __version__ = 1
 
 def handleArgs():
 
-    parser = argparse.ArgumentParser(description='A simple utility to parse files or data streams. license: MIT 2017 (c) Kevin J. Walchko')
+    parser = argparse.ArgumentParser(description='A simple utility to parse files or data streams')
 
     parser.add_argument('-v', '--version', action='version', version=__version__)
 
